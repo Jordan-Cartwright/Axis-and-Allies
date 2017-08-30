@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=attack\ defense
+comment0.target=AABattleSimulator(int[],\ int[])
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ AABattleSimulator\r\n\ \r\n\ @param\ attack\ -\ Array\ of\ attacking\ units\ in\ the\ order\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ {infantry,\ artillery,\ tank,\ fighter,\ bomber}\r\n\ \r\n\ @param\ defense\ -\ Array\ of\ defending\ units\ in\ the\ previously\ stated\ order\r\n
+comment1.params=attack\ defense\ AA
+comment1.target=AABattleSimulator(int[],\ int[],\ int)
+comment1.text=\r\n\ 2nd\ Constructor\ for\ objects\ of\ class\ AABattleSimulator\r\n\ \r\n\ @param\ attack\ -\ Array\ of\ attacking\ units\ in\ the\ order\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ {infantry,\ artillery,\ tank,\ fighter,\ bomber}\r\n\ \r\n\ @param\ defense\ -\ Array\ of\ defending\ units\ in\ the\ previously\ stated\ order\r\n\ \r\n\ @param\ AA\ -\ Number\ of\ defending\ Anti-Air\ Craft\ units\r\n
+comment2.params=
+comment2.target=double\ run()
+comment2.text=\r\n\ \ Runs\ a\ Simulation\ of\ an\ Axis\ and\ Allies\ Battle\ \r\n\ \ and\ determines\ the\ probability\ of\ victory\ of\ the\ attacking\ force.\r\n\ \ \r\n\ \ @return\ -\ returns\ the\ decimal\ percentage\ of\ victory\ for\ the\ attacking\ side\r\n
+comment3.params=
+comment3.target=double\ run2()
+comment3.text=\r\n\ \ Runs\ a\ Simulation\ of\ an\ Axis\ and\ Allies\ Battle\ \r\n\ \ and\ determines\ the\ probability\ of\ victory\ of\ the\ attacking\ force.\r\n\ \ \r\n\ \ @return\ -\ returns\ the\ decimal\ percentage\ of\ victory\ for\ the\ attacking\ side\r\n
+comment4.params=len
+comment4.target=void\ setSimulationLength(int)
+comment4.text=\r\n\ \ This\ method\ sets\ the\ simulation\ length,\ which\ \r\n\ \ by\ default\ starts\ at\ 1000\r\n\ \ \r\n\ \ @param\ len\ -\ new\ length\ of\ simulation\r\n
+comment5.params=
+comment5.target=void\ rollDice()
+comment5.text=\r\n\ generates\ a\ random\ number\r\n\ and\ simulates\ a\ dice\ roll\r\n\ \r\n
+numComments=6
